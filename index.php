@@ -12,7 +12,7 @@
     <div class="jumbotron">
         <div class="container">
             <h1 class="display-3">Hello! I'm Bakari.</h1>
-            <p>I'm looking for a Summer 2018 co-op in the areas of Product Design, UX Research, UX Design, or HCI.</p>
+            <p>I'm looking for a Summer 2018 co-op in Product Design, UX Research, UX Design, or HCI.</p>
             <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
         </div>
     </div>
