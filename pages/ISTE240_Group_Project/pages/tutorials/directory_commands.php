@@ -4,8 +4,8 @@ $section = "tutorials";
 $next_page = "tutorials/directory_structure.php";
 $rel_path_home = "../../";
 require_once $rel_path_home . "assets/php/page_start.php";
-require_once PATH_PHP . "head.php";
-require_once PATH_PHP . "utilities.php"
+require_once PATH_INC . "head.php";
+require_once PATH_INC . "utilities.php"
 ?>
     <main role="main" class="container">
 
@@ -36,11 +36,11 @@ require_once PATH_PHP . "utilities.php"
                     this sounds good to you.</li>
             </ul>
             <?php
-            require_once PATH_PHP . "next.php";
+            require_once PATH_INC . "next.php";
             ?>
         </div>
     </main><!-- /.container -->
 
 <?php
-require_once PATH_PHP . "footer.php";
+require_once PATH_INC . "footer.php";
 ?>

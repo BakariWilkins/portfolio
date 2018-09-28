@@ -6,8 +6,8 @@
 
     /* Do Not Change*/ require_once $rel_path_home . "assets/php/page_start.php"; /* Do Not Change*/
 
-    require_once PATH_PHP . "head.php";
-    require_once PATH_PHP . "utilities.php"; /* utilities has the quiz grading methods and maybe others in the future, but not all pages use this */
+    require_once PATH_INC . "head.php";
+    require_once PATH_INC . "utilities.php"; /* utilities has the quiz grading methods and maybe others in the future, but not all pages use this */
 ?>
 
 <main role="main" class="container">
@@ -45,5 +45,5 @@
 </main><!-- /.container -->
 
 <?php
-    require_once PATH_PHP . "footer.php";
+    require_once PATH_INC . "footer.php";
 ?>

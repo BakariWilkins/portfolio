@@ -1,7 +1,7 @@
 <?php
 
     const PATH = "/home/bxw2270/www/ISTE240_Group_Project/";
-    const PATH_PHP = PATH . "assets/php/";
+    const PATH_INC = PATH . "assets/php/";
     const PATH_CSS = PATH . "assets/css/";
     const PATH_JS = PATH . "assets/js/";
     const PATH_MEDIA = PATH . "assets/media/";

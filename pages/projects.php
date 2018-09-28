@@ -25,12 +25,12 @@
                 <div class="card-body">
                     <div class="d-md-inline-flex">
 
-                        <img src="<?=$rel_path_home?>assets/media/unix_references_thumb.png" class="img-thumbnail"/>
+                        <img src="<?=$rel_path_home?>assets/media/unix/unix_references_thumb.png" class="img-thumbnail"/>
 
                         <div class="flex-column project-description">
                             <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                             <p class="card-text">Tools used: JS, PHP, HTML, CSS, Bootstrap </p>
-                            <a href="#" class="btn btn-primary mt-auto">Go somewhere</a>
+                            <a href="#" class="btn btn-primary btn-lg mt-auto">Go somewhere</a>
                             <!--indvidual projects can have slideshows/carousels w/ screenshots and captioned explanations-->
                         </div>
                     </div>
@@ -45,12 +45,12 @@
 
                 <div class="card-body">
                     <div class="d-md-inline-flex">
-                        <img src="<?=$rel_path_home?>assets/media/unix_references_thumb.png" class="img-thumbnail"/>
+                        <img src="<?=$rel_path_home?>assets/media/unix/unix_references_thumb.png" class="img-thumbnail"/>
 
                         <div class="flex-column project-description">
                             <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                             <p class="card-text">Tools used: PHP, HTML, CSS, JS</p>
-                            <a href="#" class="btn btn-primary mt-auto">Go somewhere</a>
+                            <a href="#" class="btn btn-primary mt-auto btn-lg">Go somewhere</a>
                             <!--                        indvidual projects can have slideshows/carousels w/ screenshots and captioned explanations-->
                         </div>
                     </div>
@@ -65,12 +65,12 @@
                 <div class="card-body">
 
                     <div class="d-md-inline-flex">
-                        <img src="<?=$rel_path_home?>assets/media/unix_references_thumb.png" class="img-thumbnail"/>
+                        <img src="<?=$rel_path_home?>assets/media/unix/unix_references_thumb.png" class="img-thumbnail"/>
 
                         <div class="flex-column project-description">
                             <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                             <p class="card-text">Tools used: PHP, HTML, CSS, JS</p>
-                            <a href="#" class="btn btn-primary mt-auto">Go somewhere</a>
+                            <a href="#" class="btn btn-primary mt-auto btn-lg">Go somewhere</a>
                             <!--                        indvidual projects can have slideshows/carousels w/ screenshots and captioned explanations-->
                         </div>
                     </div>

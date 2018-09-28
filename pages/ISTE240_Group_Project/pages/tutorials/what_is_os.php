@@ -4,8 +4,8 @@ $section = "tutorials";
 $next_page = "tutorials//unix_components.php";
 $rel_path_home = "../../";
 require_once $rel_path_home . "assets/php/page_start.php";
-require_once PATH_PHP . "head.php";
-require_once PATH_PHP . "utilities.php"
+require_once PATH_INC . "head.php";
+require_once PATH_INC . "utilities.php"
 ?>
     <main role="main" class="container">
 
@@ -64,11 +64,11 @@ require_once PATH_PHP . "utilities.php"
             <p>Operating systems for mobile devices generally aren't as fully featured as those made for desktop and laptop computers, and they aren't able to run all of the same software. However,
                 you can still do a lot of things with them, like watch movies, browse the Web, manage your calendar, and play games.</p>
             <?php
-            require_once PATH_PHP . "next.php";
+            require_once PATH_INC . "next.php";
             ?>
         </div>
     </main><!-- /.container -->
 
 <?php
-require_once PATH_PHP . "footer.php";
+require_once PATH_INC . "footer.php";
 ?>

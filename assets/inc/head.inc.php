@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Wilkins Portfolio | <?=$title?></title>
+    <title><?=$title?> | Wilkins Portfolio</title>
 
     <!-- Bootstrap core CSS -->
     <link href="<?=$rel_path_home?>assets/css/bootstrap.css" rel="stylesheet">
@@ -38,8 +38,19 @@
             <li class="nav-item <?= ($title == 'Home') ? 'active' : ''; ?>">
                 <a class="nav-link" href="<?= URL ?>">Home<span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item <?= ($title == 'Projects') ? 'active' : ''; ?>">
-                <a class="nav-link" href="<?= URL_PAGES ?>projects.php">Projects</a>
+<!--            <li class="nav-item --><?//= ($title == 'Projects') ? 'active' : ''; ?><!--">-->
+<!--                <a class="nav-link" href="--><?//= URL_PAGES ?><!--projects.php">Projects</a>-->
+<!--            </li>-->
+            <li class="nav-item dropdown <?= ($title == ('Projects'||'Ohana'||'Unix Tutorial')) ? 'active' : ''; ?>">
+                <a class="nav-link dropdown-toggle ac" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false" >
+                    Projects
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item <?= ($title == 'Projects') ? 'active' : ''; ?>" href="<?= URL_PAGES ?>projects.php" >All Projects</a>
+                    <a class="dropdown-item <?= ($title == 'Ohana') ? 'active' : ''; ?>" href="<?= URL_PAGES ?>projects_ohana.php" >Ohana</a>
+                    <a class="dropdown-item <?= ($title == 'Unix Tutorial') ? 'active' : ''; ?>" href="<?= URL_PAGES ?>projects_unix.php">Unix Tutorial</a>
+                </div>
             </li>
             <li class="nav-item <?= ($title == 'Resumé') ? 'active' : ''; ?>">
                 <a class="nav-link" href="<?= URL_PAGES ?>resume.php">Resumé</a>
