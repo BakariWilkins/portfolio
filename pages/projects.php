@@ -22,27 +22,29 @@
 
                 <h6 class="card-header">UNIX Tutorial Site + Design Document</h6>
 
-                <div class="card-body"><div class="d-md-inline-flex">
+                <div class="card-body">
+                    <div class="d-md-inline-flex">
 
-                    <img src="<?=$rel_path_home?>assets/media/unix_references_thumb.png" class="img-thumbnail"/>
+                        <img src="<?=$rel_path_home?>assets/media/unix_references_thumb.png" class="img-thumbnail"/>
 
-                    <div class="flex-column project-description">
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <p class="card-text">Tools used: PHP, HTML, CSS, JS</p>
-                        <a href="#" class="btn btn-primary mt-auto">Go somewhere</a>
-                        <!--indvidual projects can have slideshows/carousels w/ screenshots and captioned explanations-->
+                        <div class="flex-column project-description">
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <p class="card-text">Tools used: JS, PHP, HTML, CSS, Bootstrap </p>
+                            <a href="#" class="btn btn-primary mt-auto">Go somewhere</a>
+                            <!--indvidual projects can have slideshows/carousels w/ screenshots and captioned explanations-->
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        </div>
         <div class="row">
+
             <div class="card card-body">
 
                 <h6 class="card-header">UNIX Tutorial Site + Design Document</h6>
 
-
-                <div class="card-body"><div class="d-md-inline-flex">
+                <div class="card-body">
+                    <div class="d-md-inline-flex">
                         <img src="<?=$rel_path_home?>assets/media/unix_references_thumb.png" class="img-thumbnail"/>
 
                         <div class="flex-column project-description">
@@ -52,7 +54,6 @@
                             <!--                        indvidual projects can have slideshows/carousels w/ screenshots and captioned explanations-->
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
@@ -61,8 +62,9 @@
 
                 <h6 class="card-header">UNIX Tutorial Site + Design Document</h6>
 
+                <div class="card-body">
 
-                <div class="card-body"><div class="d-md-inline-flex">
+                    <div class="d-md-inline-flex">
                         <img src="<?=$rel_path_home?>assets/media/unix_references_thumb.png" class="img-thumbnail"/>
 
                         <div class="flex-column project-description">
@@ -72,11 +74,9 @@
                             <!--                        indvidual projects can have slideshows/carousels w/ screenshots and captioned explanations-->
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
-
     </div>
 
 </main>
