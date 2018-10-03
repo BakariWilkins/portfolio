@@ -12,6 +12,7 @@
       <h1 class="jumbotron-heading">My Projects</h1>
       <p class="lead">A collection of my work, picked to showcase my skill and tool proficiencies. Enjoy!</p>
     </div>
+      <hr>
   </section>
 
     <div class="container clearfix">
@@ -28,9 +29,9 @@
                         <img src="<?=$rel_path_home?>assets/media/unix/unix_references_thumb.png" class="img-thumbnail"/>
 
                         <div class="flex-column project-description">
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <p class="card-text">Tools used: JS, PHP, HTML, CSS, Bootstrap </p>
-                            <a href="projects_ohana.php" class="btn btn-primary btn-lg mt-auto">See More</a>
+                            <p class="card-text">Skills employed: Usability testing, Lo/Hi-Fi Prototyping, Graphic Design, Teamwork</p>
+                            <p class="card-text">Tools used: Sketch, InVision, Paper prototypes, Morae</p>
+                            <a href="projects_ohana.php" class="btn btn-primary btn-lg mt-auto">See More &raquo;</a>
                             <!--indvidual projects can have slideshows/carousels w/ screenshots and captioned explanations-->
                         </div>
                     </div>
@@ -48,9 +49,9 @@
                         <img src="<?=$rel_path_home?>assets/media/unix/unix_references_thumb.png" class="img-thumbnail"/>
 
                         <div class="flex-column project-description">
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <p class="card-text">Tools used: PHP, HTML, CSS, JS</p>
-                            <a href="projects_unix.php" class="btn btn-primary mt-auto btn-lg">Go somewhere</a>
+                            <p class="card-text">Skills employed: Leadership, Teamwork, Information Architecture, Interaction Design, Web Development</p>
+                            <p class="card-text">Tools used: GitHub, HTML, CSS, JS, PHP, PhpStorm, Bootstrap, RealtimeBoard</p>
+                            <a href="projects_unix.php" class="btn btn-primary mt-auto btn-lg">See More &raquo;</a>
                             <!--                        indvidual projects can have slideshows/carousels w/ screenshots and captioned explanations-->
                         </div>
                     </div>
