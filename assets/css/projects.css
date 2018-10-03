@@ -7,9 +7,9 @@ body {
 
 .jumbotron {
     padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-bottom: 0;
     margin-bottom: 0;
-    background-color: #fff;
+    background-color: #e8e8e8;
 }
 
 .jumbotron p:last-child {
@@ -20,14 +20,17 @@ body {
     font-weight: 300;
 }
 
-.jumbotron .container {
-    max-width: 40rem;
+@media (max-width: 768px){
+    .jumbotron .container {
+        max-width: 40rem;
+    }
 }
+
 
 .album {
     padding-top: 3rem;
     padding-bottom: 3rem;
-    background-color: #f7f7f7;
+    background-color: #e8e8e8;
 }
 
 .card {
@@ -45,9 +48,13 @@ body {
 .card-text {
 }
 
+.carousel{
+    padding-bottom: 1rem;
+}
+
 footer {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
 }
 
 footer p {

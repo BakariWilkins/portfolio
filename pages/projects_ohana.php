@@ -9,10 +9,12 @@
 
     <main role="main" class="container">
 
-        <div class="starter-template">
-            <h1>****</h1>
-            <p class="lead">****</p>
-        </div>
+        <section class="jumbotron text-center">
+            <div class="container">
+                <h1 class="jumbotron-heading">My Projects</h1>
+                <p class="lead">A collection of my work, picked to showcase the different tools and techniques I'm proficient in. Enjoy!</p>
+            </div>
+        </section>
 
     </main><!-- /.container -->
 

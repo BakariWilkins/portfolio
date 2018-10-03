@@ -11,11 +11,12 @@
 }
 
 .resume-download{
-    margin-top: 6vh;
+    margin-top: 1vh;
 }
 
 footer.container{
     /*padding-left: 0;*/
+    /*max-width: 40rem;*/
 }
 footer a{
     text-decoration: underline;
@@ -30,18 +31,24 @@ footer a:hover{
     overflow: hidden;
 }
 
+strong{
+    font-weight: bolder;
+}
 .img-thumbnail{
     object-fit: cover;
     border: 1px solid #dee2e6;
     margin-top: 4px;
     margin-right: 4px;
-    margin-left: 0;
+    margin-left: .5em;
     margin-bottom: 4px;
     padding: 0;
 }
+#headshot{
+    padding-left: 2px;
+}
 .card{
     padding: 0;
-    background-color: #fff;
+    background-color: #e8e8e8;
     border: 1px solid #dee2e6;
     border-radius: 0.25rem;
 }
@@ -49,6 +56,10 @@ footer a:hover{
 @media (max-width: 768px) {
     #headshot{
         display: none;
+    }
+    .navbar-brand {
+        margin-left: 28px;
+        font-size: 1.5rem;
     }
 
     .jumbotron-heading{

@@ -1,6 +1,8 @@
+<hr/>
 <footer class="container">
     <p>Email: <a href="mailto:bxw2270@rit.edu">bxw2270@rit.edu</a> </p>
-    <p>Phone: (202)412-2912 (No Voicemail)</p>
+    <p><a href="http://www.linkedin.com/in/bakariwilkins">LinkedIn</a> </p>
+    <p>Phone: <a href="tel:1-202-412-2912">(202)412-2912</a> (No Voicemail Please)</p>
 </footer>
 
 <!-- Bootstrap core JavaScript
