@@ -48,7 +48,6 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item <?= ($title == 'Projects') ? 'active' : ''; ?>" href="<?= URL_PAGES ?>projects.php" >All Projects</a>
-                        <a class="dropdown-item <?= ($title == 'Ohana') ? 'active' : ''; ?>" href="<?= URL_PAGES ?>projects_ohana.php" >Ohana</a>
                         <a class="dropdown-item <?= ($title == 'Unix Tutorial') ? 'active' : ''; ?>" href="<?= URL_PAGES ?>projects_unix.php">Unix Tutorial</a>
                     </div>
                 </li>
