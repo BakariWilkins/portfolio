@@ -16,8 +16,8 @@
 
                 <p class="lead"><strong>Tools used:</strong> GitHub, HTML, CSS, JS, PHP, PhpStorm, Bootstrap, RealtimeBoard</p>
             </div>
-            <hr>
         </section>
+        <hr>
         <section>
             <h5>Overview</h5>
             <p>
@@ -109,7 +109,7 @@
             </div>
             <h5>Site Building Phase</h5>
             <p>
-                I made the nav responsive, did the bulk of the PHP, and streamlined the development process by making a page template in PHP. I also assisted our designer with some design decisions and CSS debugging.
+                I made the nav responsive, did the bulk of the PHP, and streamlined the development process by making a page template in PHP. I also assisted our designer with CSS debugging and with some decisions about the color scheme, page layout, and logo.
             </p>
             <h5>Result</h5>
             <p>
