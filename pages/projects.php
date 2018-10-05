@@ -21,6 +21,27 @@
 
             <div class="card card-body">
 
+                <h6 class="card-header">Ohana Smart Home App</h6>
+
+                <div class="card-body">
+                    <div class="d-md-inline-flex">
+
+                        <img src="<?=$rel_path_home?>assets/media/unix/unix_references_thumb.png" class="img-thumbnail"/>
+
+                        <div class="flex-column project-description">
+                            <p class="card-text">Skills employed: Usability testing, Lo/Hi-Fi Prototyping, Graphic Design, Teamwork</p>
+                            <p class="card-text">Tools used: Sketch, InVision, Paper prototypes, Morae</p>
+                            <a href="projects_ohana.php" class="btn btn-primary btn-lg mt-auto">See More &raquo;</a>
+                            <!--indvidual projects can have slideshows/carousels w/ screenshots and captioned explanations-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="card card-body">
+
                 <h6 class="card-header">UNIX Tutorial Site + Design Document</h6>
 
                 <div class="card-body">
