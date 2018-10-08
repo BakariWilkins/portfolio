@@ -21,7 +21,7 @@
         <section>
             <h5>Overview</h5>
             <p>
-                In a 3-person group, created, evaluated, and iterated on a prototype of a smart home hub app, Ohana.
+                In a 3-person group (<a href="http://carolynopre.me">Carolyn Opre</a>, <a href="http://duncanokes.design"> Duncan Okes</a>, and myself) created, evaluated, and iterated on a prototype of a smart home hub app, Ohana.
             </p>
 
             <div id="process" class="carousel slide" data-ride="carousel" data-interval="false">
@@ -32,20 +32,26 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="d-block w-100" src="<?=URL_MEDIA?>assets/media/ohana/modulesAndLayout_Carolyn.jpg" alt="Tutorial Page">
+                        <img class="d-block w-75 pb-15" src="<?=URL_MEDIA?>ohana/modulesAndLayout_Carolyn.jpg" alt="Tutorial Page">
                         <div class="carousel-caption d-none d-md-block">
-                            <p>One of our initial sketches. Here we debated over how we would display the smart home devices, and how the user could control them</p>
+                            <p>
+                                An initial sketch. Discussed displaying smart devices using widgets or tiles.
+                            </p>
+
+                            <p>
+                                Also discussed what the "drawer" would look like, other display options, and the scene/routine features.
+                            </p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="<?=URL_MEDIA?>unix/unix_home" alt="Home Page">
+                        <img class="d-block w-75 pb-4" src="<?=URL_MEDIA?>ohana/paper_proto_example.jpg" alt="Paper Prototype">
                         <div class="carousel-caption d-none d-md-block">
-                            <p>The homepage.</p>
+                            <p>Paper prototype example</p>
 
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="<?=URL_MEDIA?>unix/unix_quiz.png" alt="Quiz Page">
+                        <img class="d-block w-75" src="<?=URL_MEDIA?>unix/unix_quiz.png" alt="Quiz Page">
                         <div class="carousel-caption d-none d-md-block">
                             <p>An example quiz page.</p>
                         </div>
@@ -79,13 +85,13 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="d-block w-100" src="<?=URL_MEDIA?>unix/idea_board.jpg" alt="Idea Board">
+                        <img class="d-block w-75" src="<?=URL_MEDIA?>unix/idea_board.jpg" alt="Idea Board">
                         <div class="carousel-caption d-none d-md-block">
                             <p>This idea board is the result of our brainstorming sessions.</p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="<?=URL_MEDIA?>unix/affinity_diagram.jpg" alt="Affinity Diagram">
+                        <img class="d-block w-75" src="<?=URL_MEDIA?>unix/affinity_diagram.jpg" alt="Affinity Diagram">
                         <div class="carousel-caption d-none d-md-block">
                             <p>
                                 I made an affinity chart out of the ideas and categorized them into content or site features. </p>

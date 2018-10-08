@@ -43,6 +43,15 @@ strong{
     margin-bottom: 4px;
     padding: 0;
 }
+
+.pb-15{
+    padding-bottom: 15%;
+}
+
+.pb-20{
+    padding-bottom: 20%;
+}
+
 #headshot{
     padding-left: 2px;
 }

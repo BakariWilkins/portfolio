@@ -7674,6 +7674,8 @@ button.bg-dark:hover {
 
 .w-75 {
     width: 75% !important;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .w-100 {
@@ -7986,6 +7988,7 @@ button.bg-dark:hover {
 .py-5 {
     padding-bottom: 3rem !important;
 }
+
 
 .pl-5,
 .px-5 {

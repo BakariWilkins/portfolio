@@ -23,7 +23,7 @@
                 I also love UX because I love working to understand and communicate with different perspectives; Communicating UX considerations to project stakeholders of varied backgrounds allows me to do that.
             </p>
             <p>
-                I'm interested in eventually going into UX Research, Product Design, or HCI for emerging interfaces like spatial computing, e-paper, or AR/VR.
+                I'm interested in eventually going into UX Research, Product Design, or HCI for emerging interfaces like spatial computing, e-paper, and AR/VR.
             </p>
 
             <h5>My Inspirations</h5>
