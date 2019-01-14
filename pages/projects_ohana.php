@@ -21,7 +21,7 @@
         <section>
             <h5>Overview</h5>
             <p>
-                In a 3-person group (<a href="http://carolynopre.me">Carolyn Opre</a>, <a href="http://duncanokes.design"> Duncan Okes</a>, and myself) created, evaluated, and iterated on a prototype of a smart home hub app, Ohana.
+                In a 3-person group (<a href="http://carolynopre.me">Carolyn Opre</a>, <a href="http://duncanokes.design"> Duncan Okes</a>, and myself) created, evaluated, and iterated on a prototype of a smart home hub app, Ohana. I was especially involved in the prototype evaluation phase.
             </p>
 
             <div id="process" class="carousel slide" data-ride="carousel" data-interval="false">
@@ -51,7 +51,7 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-75" src="<?=URL_MEDIA?>unix/unix_quiz.png" alt="Quiz Page">
+                        <img class="d-block w-75" src="<?=URL_MEDIA?>ohana" alt="Quiz Page">
                         <div class="carousel-caption d-none d-md-block">
                             <p>An example quiz page.</p>
                         </div>
@@ -67,15 +67,21 @@
                 </a>
             </div>
 
-            <h5>Leadership</h5>
+            <h5>Ideation</h5>
             <p>
-                As the group leader, I delegated tasks, scheduled meetings, and managed deadlines. I also helped resolve some conflicts regarding the differing opinions and priorities about the site's design (mainly a "sidenav vs. topnav" debate). I made sure that everyone's voice was heard while still progressing toward our project objectives in a timely fashion. I troubleshot problems affecting the group such as connecting to our server, accessing our GitHub repository, and setting up our IDEs; I and another group member then made instruction manuals for the group that addressed those problems.
+                From the beginning of the project we wanted our app to be socially conscious, and climate change was on our minds. So we set out to make an app that efficiently managed a smart home’s devices while focusing on reducing resource consumption (and saving money on utilities). We thought that combining practical uses with environmental benefits in this way would be attractive to potential users. The name ‘Ohana’ was chosen because it means family in Hawaiian, invoking a sense of global community and shared responsibility for the earth.
+            </p>
+            <p>
+                We first brainstormed features, functions, layout, information architecture, and navigation. We sketched different ideas and fleshed out our options for implementing different functions.
+            </p>
+            <p>
+                After this we extensively discussed the importance of different features and the viability of potential designs. Then we narrowed our focus, reworked some features, and came out with a unified vision of what we wanted Ohana to be and do.
             </p>
 
 
-            <h5>Design Document Phase</h5>
+            <h5>Lo-fi Paper Prototype</h5>
             <p>
-                I facilitated the group's initial brainstorming sessions, where we decided our target audiences and the ways in which we wanted to serve them. I then created our personas by thinking about those goals and demographics and incorporating them into narratives and use cases. I also developed our vision into a cohesive website by compiling a list of the group's ideas and making them into an affinity diagram. This laid the foundation for our information architecture going forward.
+                From there we assembled the UI elements we designed into a lo-fi paper prototype, to be tested and iterated on. The paper format was convenient for prototyping, because it didn’t require us to program interactions or make hotspots for parts of the app that were subject to change. There was, however, a tradeoff in not being able to automate certain parts of the prototyping process (copy and pasting UI elements, templating).
             </p>
 
             <div id="affinityChart" class="carousel slide" data-ride="carousel" data-interval="false">
@@ -110,14 +116,63 @@
                     <span class="sr-only">Next</span>
                 </a>
             </div>
-            <h5>Site Building Phase</h5>
+
+            <h5>Lo-fi Testing</h5>
             <p>
-                I made the nav responsive, did the bulk of the PHP, and streamlined the development process by making a page template in PHP. I also assisted our designer with some design decisions and CSS debugging.
+                The main things we were trying to validate were the navigation, the information architecture, and the intuitiveness of the “scene” and “routine” features. We wrote a task list that covered the relevant use cases. We also created questions for participants based on Nielsen’s Usability Heuristics. I adapted a script and consent forms from “Rocket Surgery Made Easy” materials. Test participants were recruited from among our friends and we tested them in person. We encouraged participants to think aloud throughout the test.
             </p>
-            <h5>Result</h5>
             <p>
-                From start to finish, the project lasted 10 weeks, and we completed our objectives under deadline. We gave a presentation on our site; gave a short walkthrough of our work process; and received positive feedback, particularly in the areas of visual design and accessibility.
+                Findings:
             </p>
+            <ul>
+                <li>Users were confused about the meanings of “scene” and “routine,” and about the difference between the two.</li>
+                <li>Users didn’t always understand that the second layer nav was filtering the widgets or data being shown</li>
+                <li>Users didn’t like how few menu items there were in the sidenav, and they didn’t intuitively know what it contained.</li>
+                <li>Users wanted a way to manually edit the favorites page.</li>
+            </ul>
+
+            <h5>Hi-fi Prototype</h5>
+            <p>
+                The second iteration of the prototype was made with Sketch(with the Craft plugin), and InVision. We fleshed out the implementations of features, enhanced the prototype's visual design, and made changes according to our findings in the lo-fi testing.
+            </p>
+            <p>
+                Changes:
+            </p>
+            <ul>
+                <li>
+                    Consolidated “scenes” and “routines” into just “routines.” We kept the functionality of scenes but gave users the option to add a trigger to scenes.
+                </li>
+
+                <li>
+                    Changed the "Routines" tab to "Create," so that both routines and devices could be added to Ohana using that page. This also
+                </li>
+
+                <li>
+                    Changed the 2nd layer nav with a “filter” bar above the widgets, to more explicitly express the ability to sort widgets, and to improve aesthetics.
+                </li>
+
+                <li>
+                    Turned the sidenav into a settings page, giving users a better idea of what it contained.
+                </li>
+
+                <li>
+                    Added a process for adding widgets to the favorites page.
+                </li>
+            </ul>
+
+            <h5>Hi-fi Testing</h5>
+            <p>
+                We tested the hi-fi prototype with Morae and other screen/audio recording tools. I adapted versions of materials from the lo-fi testing, added tasks related to new implementations of features, and we used the same procedures. Our goal was to validate the changes we made from the lo-fi prototype
+            </p>
+            <p>
+                Findings:
+            </p>
+            <ul>
+                <li>Users were confused about the meanings of “scene” and “routine,” and about the difference between the two.</li>
+                <li>Users didn’t always understand that the second layer nav was filtering the widgets or data being shown</li>
+                <li>Users didn’t like how few menu items there were in the sidenav, and they didn’t intuitively know what it contained.</li>
+                <li>Users wanted a way to manually edit the favorites page.</li>
+            </ul>
 
         </section>
 
