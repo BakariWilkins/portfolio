@@ -32,7 +32,7 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="d-block w-75 pb-15" src="<?=URL_MEDIA?>ohana/modulesAndLayout_Carolyn.jpg" alt="Tutorial Page">
+                        <img class="d-block w-75 pb-15" src="<?=URL_MEDIA?>ohana/modulesAndLayout_Carolyn.jpg" alt="Sketches">
                         <div class="carousel-caption d-none d-md-block">
                             <p>
                                 An initial sketch. Discussed displaying smart devices using widgets or tiles.
@@ -51,9 +51,9 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-75" src="<?=URL_MEDIA?>ohana" alt="Quiz Page">
+                        <img class="d-block w-75" src="<?=URL_MEDIA?>ohana_collage" alt="Final Prototype">
                         <div class="carousel-caption d-none d-md-block">
-                            <p>An example quiz page.</p>
+                            <p>Hi-fi Prototype</p>
                         </div>
                     </div>
                 </div>
@@ -91,20 +91,11 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="d-block w-75" src="<?=URL_MEDIA?>unix/idea_board.jpg" alt="Idea Board">
-                        <div class="carousel-caption d-none d-md-block">
-                            <p>This idea board is the result of our brainstorming sessions.</p>
-                        </div>
+                        <img class="d-block w-75" src="<?=URL_MEDIA?>ohana/paper_proto1.jpg" alt="Idea Board">
+
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-75" src="<?=URL_MEDIA?>unix/affinity_diagram.jpg" alt="Affinity Diagram">
-                        <div class="carousel-caption d-none d-md-block">
-                            <p>
-                                I made an affinity chart out of the ideas and categorized them into content or site features. </p>
-                            <p>
-                                The content portion formed the basis for the rest of our Information Architecture, and the site features portion formed our initial site requirements.
-                            </p>
-                        </div>
+                        <img class="d-block w-75" src="<?=URL_MEDIA?>ohana/paper_proto2.jpg" alt="Affinity Diagram">
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#affinityChart" role="button" data-slide="prev">
