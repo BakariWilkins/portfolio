@@ -51,7 +51,7 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-75" src="<?=URL_MEDIA?>ohana_collage" alt="Final Prototype">
+                        <img class="d-block w-75" src="<?=URL_MEDIA?>ohana/Home-Fav@2x.png" alt="Final Prototype">
                         <div class="carousel-caption d-none d-md-block">
                             <p>Hi-fi Prototype</p>
                         </div>
@@ -88,14 +88,18 @@
                 <ol class="carousel-indicators">
                     <li data-target="#affinityChart" data-slide-to="0" class="active"></li>
                     <li data-target="#affinityChart" data-slide-to="1"></li>
+                    <li data-target="#affinityChart" data-slide-to="2"></li>
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="d-block w-75" src="<?=URL_MEDIA?>ohana/paper_proto1.jpg" alt="Idea Board">
+                        <img class="d-block w-75" src="<?=URL_MEDIA?>ohana/paper_proto1.jpg" alt="Home Screen">
 
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-75" src="<?=URL_MEDIA?>ohana/paper_proto2.jpg" alt="Affinity Diagram">
+                        <img class="d-block w-75" src="<?=URL_MEDIA?>ohana/paper_proto5.jpg" alt="Data Screen">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-75" src="<?=URL_MEDIA?>ohana/paper_proto6.jpg" alt="Settings Screen">
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#affinityChart" role="button" data-slide="prev">
