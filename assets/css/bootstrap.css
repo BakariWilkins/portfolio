@@ -6039,6 +6039,8 @@ button.close {
 .carousel-item-next,
 .carousel-item-prev {
     display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .carousel-item-next,

@@ -51,7 +51,7 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-75" src="<?=URL_MEDIA?>ohana/Home-Fav@2x.png" alt="Final Prototype">
+                        <img class="d-block w-75" src="<?=URL_MEDIA?>ohana/collage_2.png" alt="Final Prototype">
                         <div class="carousel-caption d-none d-md-block">
                             <p>Hi-fi Prototype</p>
                         </div>
