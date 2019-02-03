@@ -1,10 +1,4 @@
 
-@media (max-width: 768px){
-    #headshot{
-        display: none;
-    }
-}
-
 #resume{
     margin-top: 5%;
 
@@ -63,7 +57,7 @@ strong{
 }
 
 @media (max-width: 768px) {
-    #headshot{
+    #headshot, #head{
         display: none;
     }
     .navbar-brand {
@@ -82,3 +76,16 @@ strong{
 
 }
 
+@media (max-width: 576px) {
+    .navbar-brand{
+        margin-left: 16px;
+        font-size: 2rem;
+    }
+    #ohana{
+        display: none;
+    }
+}
+
+#ohana{
+    transform: scale(.7);
+}
