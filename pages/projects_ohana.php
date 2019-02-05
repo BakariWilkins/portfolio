@@ -32,7 +32,7 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="d-block w-75 pb-15" src="<?=URL_MEDIA?>ohana/modulesAndLayout_Carolyn.jpg" alt="Sketches">
+                        <img class="d-block w-75" src="<?=URL_MEDIA?>ohana/modulesAndLayout_Carolyn.jpg" alt="Sketches">
                         <div class="carousel-caption d-none d-md-block">
                             <p>
                                 An initial sketch. Discussed whether to display smart devices using widgets or tiles, what the "drawer" would look like, other display options, and the scene/routine features.
@@ -40,7 +40,7 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-75 pb-4" src="<?=URL_MEDIA?>ohana/paper_proto_example.jpg" alt="Paper Prototype">
+                        <img class="d-block w-75" src="<?=URL_MEDIA?>ohana/paper_proto_example.jpg" alt="Paper Prototype">
                         <div class="carousel-caption d-none d-md-block">
                             <p>Paper prototype example</p>
 

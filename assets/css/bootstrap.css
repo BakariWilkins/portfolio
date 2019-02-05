@@ -6106,10 +6106,9 @@ button.close {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    width: 15%;
-    color: #280080;
+    width: 10%;
+    background-color: rgba(0,0,0,0.5);
     text-align: center;
-    opacity: 0.5;
 }
 
 .carousel-control-prev:focus, .carousel-control-prev:hover,
@@ -6136,7 +6135,6 @@ button.close {
     height: 20px;
     background: transparent no-repeat center center;
     background-size: 100% 100%;
-    background-color: #280080;
 }
 
 .carousel-control-prev-icon {
