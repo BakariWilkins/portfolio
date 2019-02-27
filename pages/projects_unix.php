@@ -12,19 +12,19 @@
         <section class="jumbotron text-center">
             <div class="container">
                 <h1 class="jumbotron-heading">Unix Tutorial Site</h1>
-                <p class="lead"><strong>Skills employed:</strong> Leadership, Teamwork, Information Architecture, Interaction Design, Web Development</p>
+                <p class="lead"><strong>Skills employed:</strong> Leadership, Teamwork, Information Architecture, Interaction Design, Web Development, Presentation</p>
 
                 <p class="lead"><strong>Tools used:</strong> GitHub, HTML, CSS, JS, PHP, PhpStorm, Bootstrap, RealtimeBoard</p>
             </div>
-            <hr>
         </section>
+        <hr>
         <section>
             <h5>Overview</h5>
             <p>
                 Our 6-person group, named Thunderfox, was tasked with creating a 50-page website and an accompanying design document. I was the group's leader, did the bulk of the information architecture, personas, and server side code. I also helped with graphic design, interaction design, and debugging.
             </p>
             <p>
-                This project, while not explicitly UX-focused, demonstrates my ability to analyze information, communicate, problem-solve, and see a project through from ideation to development.
+                This project, while not explicitly UX-focused, demonstrates my ability to analyze information, organize information in an understandable way, communicate, problem-solve, and see a project through from ideation to development.
             </p>
 
             <div id="siteExamples" class="carousel slide" data-ride="carousel" data-interval="false">
@@ -35,20 +35,20 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="d-block w-100" src="<?=URL_MEDIA?>unix/unix_tutorial.png" alt="Tutorial Page">
+                        <img class="d-block w-75" src="<?=URL_MEDIA?>unix/unix_tutorial.png" alt="Tutorial Page">
                         <div class="carousel-caption d-none d-md-block">
                             <p>Our introductory tutorial page.</p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="<?=URL_MEDIA?>unix/unix_home" alt="Home Page">
+                        <img class="d-block w-75" src="<?=URL_MEDIA?>unix/unix_home" alt="Home Page">
                         <div class="carousel-caption d-none d-md-block">
                             <p>The homepage.</p>
 
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="<?=URL_MEDIA?>unix/unix_quiz.png" alt="Quiz Page">
+                        <img class="d-block w-75" src="<?=URL_MEDIA?>unix/unix_quiz.png" alt="Quiz Page">
                         <div class="carousel-caption d-none d-md-block">
                             <p>An example quiz page.</p>
                         </div>
@@ -82,18 +82,18 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="d-block w-100" src="<?=URL_MEDIA?>unix/idea_board.jpg" alt="Idea Board">
+                        <img class="d-block w-75 pb-4" src="<?=URL_MEDIA?>unix/idea_board.jpg" alt="Idea Board">
                         <div class="carousel-caption d-none d-md-block">
                             <p>This idea board is the result of our brainstorming sessions.</p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="<?=URL_MEDIA?>unix/affinity_diagram.jpg" alt="Affinity Diagram">
+                        <img class="d-block w-75 pb-20" src="<?=URL_MEDIA?>unix/affinity_diagram.jpg" alt="Affinity Diagram">
                         <div class="carousel-caption d-none d-md-block">
                         <p>
                             I made an affinity chart out of the ideas and categorized them into content or site features. </p>
                         <p>
-                            The content portion formed the basis for the rest of our Information Architecture, and the site features portion formed our initial site requirements.
+                            The content portion formed the basis for the rest of our information architecture, and the site features portion formed our initial site requirements.
                         </p>
                     </div>
                     </div>
@@ -109,7 +109,7 @@
             </div>
             <h5>Site Building Phase</h5>
             <p>
-                I made the nav responsive, did the bulk of the PHP, and streamlined the development process by making a page template in PHP. I also assisted our designer with some design decisions and CSS debugging.
+                I made the nav responsive, did the bulk of the PHP, and streamlined the development process by making a page template in PHP. I also assisted our designer with CSS debugging and with some decisions about the color scheme, page layout, and logo.
             </p>
             <h5>Result</h5>
             <p>

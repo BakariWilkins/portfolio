@@ -1,10 +1,4 @@
 
-@media (max-width: 768px){
-    #headshot{
-        display: none;
-    }
-}
-
 #resume{
     margin-top: 5%;
 
@@ -43,6 +37,15 @@ strong{
     margin-bottom: 4px;
     padding: 0;
 }
+
+.pb-15{
+    padding-bottom: 15%;
+}
+
+.pb-20{
+    padding-bottom: 20%;
+}
+
 #headshot{
     padding-left: 2px;
 }
@@ -54,7 +57,7 @@ strong{
 }
 
 @media (max-width: 768px) {
-    #headshot{
+    #headshot, #head{
         display: none;
     }
     .navbar-brand {
@@ -73,3 +76,16 @@ strong{
 
 }
 
+@media (max-width: 576px) {
+    .navbar-brand{
+        margin-left: 16px;
+        font-size: 2rem;
+    }
+    #ohana{
+        display: none;
+    }
+}
+
+#ohana{
+    transform: scale(.7);
+}

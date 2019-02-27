@@ -60,7 +60,7 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 
 body {
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: /*"Comic Sans MS",Papyrus, "Berthold Akzidenz Grotesk",*/ -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
@@ -81,7 +81,6 @@ hr {
 
 h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
-    margin-bottom: 0.5rem;
 }
 
 p {
@@ -373,7 +372,7 @@ template {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-    margin-bottom: 0.5rem;
+    margin-bottom: 0rem;
     font-family: inherit;
     font-weight: 500;
     line-height: 1.2;
@@ -423,7 +422,7 @@ h6, .h6 {
 }
 
 .display-3 {
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     font-weight: 300;
     line-height: 1.2;
 }
@@ -506,7 +505,6 @@ mark,
 }
 
 .figure {
-    display: inline-block;
 }
 
 .figure-img {
@@ -4105,6 +4103,7 @@ tbody.collapse.show {
         padding-right: 0;
         padding-left: 0;
     }
+
 }
 
 @media (min-width: 576px) {
@@ -6040,6 +6039,8 @@ button.close {
 .carousel-item-next,
 .carousel-item-prev {
     display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .carousel-item-next,
@@ -6104,10 +6105,9 @@ button.close {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    width: 15%;
-    color: #280080;
+    width: 10%;
+    background-color: rgba(0,0,0,0.5);
     text-align: center;
-    opacity: 0.5;
 }
 
 .carousel-control-prev:focus, .carousel-control-prev:hover,
@@ -6134,7 +6134,6 @@ button.close {
     height: 20px;
     background: transparent no-repeat center center;
     background-size: 100% 100%;
-    background-color: #280080;
 }
 
 .carousel-control-prev-icon {
@@ -7675,6 +7674,8 @@ button.bg-dark:hover {
 
 .w-75 {
     width: 75% !important;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .w-100 {
@@ -7987,6 +7988,7 @@ button.bg-dark:hover {
 .py-5 {
     padding-bottom: 3rem !important;
 }
+
 
 .pl-5,
 .px-5 {
