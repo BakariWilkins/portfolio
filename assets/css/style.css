@@ -12,14 +12,7 @@ footer.container{
     /*padding-left: 0;*/
     /*max-width: 40rem;*/
 }
-footer a{
-    text-decoration: underline;
-    color: #212529;
-}
 
-footer a:hover{
-    text-decoration: none;
-}
 
 .container{
     overflow: hidden;

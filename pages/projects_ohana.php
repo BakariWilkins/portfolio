@@ -21,7 +21,7 @@
         <section>
             <h5>Overview</h5>
             <p>
-                In a 3-person group (<a href="http://carolynopre.me">Carolyn Opre</a>, <a href="http://duncanokes.design"> Duncan Okes</a>, and myself) created, evaluated, and iterated on a prototype of a smart home hub app, Ohana. I was especially involved in the prototype evaluation phase.
+                In a 3-person group (<a href="http://carolynopre.me">Carolyn Opre</a>, <a href="http://duncanokes.design"> Duncan Okes</a>, and myself) created, evaluated, and iterated on a prototype of a smart home hub app, Ohana. I was especially involved in the prototype evaluation phase. This was a class project in my Prototyping and Usability Testing course, which is the best class I've ever taken.
             </p>
 
             <figure class="figure  w-75">
@@ -87,6 +87,9 @@
                 <p>
                     The second iteration of the prototype was made using Sketch(with the Craft plugin), and InVision. We fleshed out the implementations of features, enhanced the prototype's visual design, and made changes according to our findings in the lo-fi testing.
                 </p>
+                <p>
+                    You can view the <a href="https://invis.io/FQQR4C89EW3">full Invision prototype here.</a>
+                </p>
 
                 <figure class="figure  w-75">
                     <img src="<?=URL_MEDIA?>ohana/collage_2.png" class="figure-img img-fluid rounded" alt="Hi-fi Prototype">
@@ -144,7 +147,33 @@
 
             <h5>Result</h5>
             <p>
-                The project ends after the first iteration, and it gave us the most in-depth look at the UX process that we'd had up until then
+                Our final product for the class project was the hi-fi prototype along with the insights we gained from testing it, so sadly we only got to iterate once.
+            </p>
+
+            <h7>
+                But if we did a second iteration, the next changes we'd seek to make and validate would be to:
+            </h7>
+            <ul>
+
+                <li>
+                    Better convey the meaning and function of the "routine" feature to users
+                </li>
+                <li>
+                    Clarifying the process for setting the state of devices in a routine (e.g. specifying what temperature your "Bedtime" routine should set the thermostat to).
+                </li>
+                <li>
+                    Make the filter look more clickable and more noticeable
+                </li>
+                <li>
+                    Position “Back,” “Done,” and “Cancel” buttons in a more consistent way, so that users can expect what the buttons will do.
+                </li>
+                <li>
+                    Add “Back” buttons to Data pages (oops!)
+                </li>
+            </ul>
+
+            <p>
+                This project will always be close to my heart because it was extremely fun to make; and was the first time that I made scripts and task lists, ran a user test (in a fancy lab with a one way mirror even!), and converted qualitative user data into actionable goals. I'd already been exposed to design principles, but implementing these fundamental UX research principles gave me a fuller, more exciting picture of what it meant to be a UXer.
             </p>
 
         </section>
