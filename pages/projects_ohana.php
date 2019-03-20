@@ -21,7 +21,7 @@
         <section>
             <h5>Overview</h5>
             <p>
-                In a 3-person group (<a href="http://carolynopre.me">Carolyn Opre</a>, <a href="http://duncanokes.design"> Duncan Okes</a>, and myself) created, evaluated, and iterated on a prototype of a smart home hub app, Ohana. I was especially involved in the prototype evaluation phase. This was a class project in my Prototyping and Usability Testing course, which is the best class I've ever taken.
+                In a 3-person group (<a href="http://carolynopre.me">Carolyn Opre</a>, <a href="http://duncanokes.design"> Duncan Okes</a>, and myself) created, evaluated, and iterated on a prototype of a smart home hub app, Ohana. I was especially involved in the prototype evaluation phases.
             </p>
 
             <figure class="figure  w-75">
@@ -38,18 +38,15 @@
             </h7>
             <ul>
                 <li>Was socially conscious</li>
-                <li>Reduced resource consumption</li>
-                <li>Saved money on utilities</li>
-                <li>Efficiently managed a home's smart devices</li>
+                <li>Reduces resource consumption</li>
+                <li>Saves money on utilities</li>
+                <li>Efficiently manages a home's smart devices</li>
             </ul>
             <p>
                 The name ‘Ohana’ was chosen because it means family in Hawaiian, invoking a sense of global community and shared responsibility for the earth.
             </p>
             <p>
-                We first brainstormed features, functions, layout, information architecture, and navigation.
-            </p>
-            <p>
-                After this we extensively discussed the importance of different features and the viability of potential designs. Then we narrowed our focus, reworked some features, and came out with a unified vision of what we wanted Ohana to be and do.
+                We first brainstormed features, layout, information architecture, and navigation. Through discussion, we then narrowed our focus, reworked features, and came out with a unified vision of what we wanted Ohana to be.
             </p>
 
             <figure class="figure  w-75">
@@ -60,17 +57,27 @@
 
             <h5>Lo-fi Paper Prototype</h5>
             <p>
-                We assembled our UI elements into a lo-fi paper prototype. The paper format was convenient for prototyping, because it didn’t require us to program interactions or make hotspots for parts of the app that were subject to change. There was a tradeoff in that we couldn't copy and pasting UI elements or make digital templates.
+                We assembled our UI elements into a lo-fi paper prototype. The paper format was convenient for prototyping because it didn’t require us to program interactions for tentative parts of the design. However, we couldn't copy and paste UI elements or make digital templates.
             </p>
 
             <figure class="figure  w-75">
                 <img src="<?=URL_MEDIA?>ohana/paper_proto_example.jpg" class="figure-img img-fluid rounded" alt="Paper prototype example">
+                <figcaption class="figure-caption mb-2">Paper Prototype Examples</figcaption>
             </figure>
 
             <h5>Lo-fi Testing</h5>
+            <h7>
+                Validation Targets:
+            </h7>
+            <ul>
+                <li>Navigation</li>
+                <li>Information architecture</li>
+                <li>The intuitiveness of the “scene” and “routine” features</li>
+            </ul>
             <p>
-                We mainly tried to validate the navigation, the information architecture, and the intuitiveness of the “scene” and “routine” features. We wrote a task list that covered the relevant use cases. We also created questions for participants based on Nielsen’s Usability Heuristics. I adapted a script and consent forms from “Rocket Surgery Made Easy” materials. Test participants were recruited from among our friends and we tested them in person with the "think aloud" method.
+                We wrote a task list that covered the relevant use cases and created questions for participants based on Nielsen’s Usability Heuristics. I adapted a script and consent forms from “Rocket Surgery Made Easy” materials. Test participants were recruited and were tested in person with the "think aloud" method.
             </p>
+
             <h7>
                 Findings:
             </h7>
@@ -85,14 +92,15 @@
 
             <div>
                 <p>
-                    The second iteration of the prototype was made using Sketch(with the Craft plugin), and InVision. We fleshed out the implementations of features, enhanced the prototype's visual design, and made changes according to our findings in the lo-fi testing.
+                    The second iteration of the prototype was made using Sketch(with the Craft plugin) and InVision. We fleshed out the feature implementations, enhanced the prototype's visual design, and made changes according to our findings in the lo-fi testing.
                 </p>
                 <p>
-                    You can view the <a href="https://invis.io/FQQR4C89EW3">full Invision prototype here.</a>
+                    You can view the <a href="https://invis.io/FQQR4C89EW3">full InVision prototype here.</a>
                 </p>
 
                 <figure class="figure  w-75">
                     <img src="<?=URL_MEDIA?>ohana/collage_2.png" class="figure-img img-fluid rounded" alt="Hi-fi Prototype">
+                    <figcaption class="figure-caption mb-2">Hi-Fi Prototype</figcaption>
                 </figure>
 
                 <h7>
@@ -112,7 +120,7 @@
                     </li>
 
                     <li>
-                        Turned the sidenav into a settings page, giving users a better idea of what it contained.
+                        Turned the sidenav into a settings page with a gear icon, giving users a better idea of what it contained.
                     </li>
 
                     <li>
@@ -124,7 +132,7 @@
             <h5>Hi-fi Testing</h5>
 
             <p>
-                We tested the hi-fi prototype with Morae and other screen/audio recording tools. I adapted versions of materials from the lo-fi testing, added tasks related to new implementations of features, and we used the same procedures. Our goal was to validate the changes we made from the lo-fi prototype
+                We tested the hi-fi prototype with Morae and other screen/audio recording tools. I adapted versions of materials from the lo-fi testing, added tasks related to new implementations of features, and we used the same procedures. Our goal was to validate the changes we made from the lo-fi prototype.
             </p>
             <h7>
                 Findings:
@@ -140,14 +148,14 @@
                     Some users didn’t perceive that the filter bar was clickable
                 </li>
                 <li>
-                    Navigating between data pages
+                    Navigation between data pages was inconsistent and unintuitive
                 </li>
             </ul>
 
 
             <h5>Result</h5>
             <p>
-                Our final product for the class project was the hi-fi prototype along with the insights we gained from testing it, so sadly we only got to iterate once.
+                Our final product for the class project was the hi-fi prototype along with the insights we gained from testing it, so we've only iterated once...so far.
             </p>
 
             <h7>
@@ -159,7 +167,7 @@
                     Better convey the meaning and function of the "routine" feature to users
                 </li>
                 <li>
-                    Clarifying the process for setting the state of devices in a routine (e.g. specifying what temperature your "Bedtime" routine should set the thermostat to).
+                    Clarify the process for setting the state of devices in a routine (e.g. specifying what temperature your "Bedtime" routine should set the thermostat to).
                 </li>
                 <li>
                     Make the filter look more clickable and more noticeable
@@ -173,7 +181,7 @@
             </ul>
 
             <p>
-                This project will always be close to my heart because it was extremely fun to make; and was the first time that I made scripts and task lists, ran a user test (in a fancy lab with a one way mirror even!), and converted qualitative user data into actionable goals. I'd already been exposed to design principles, but implementing these fundamental UX research principles gave me a fuller, more exciting picture of what it meant to be a UXer.
+                This project will always be close to my heart because it was extremely fun to make; and was the first time that I made scripts and task lists, ran a user test (in a lab with a one way mirror!), and converted qualitative user data into actionable goals. I'd already been exposed to design principles, but implementing these fundamental UX research principles gave me a fuller, more exciting picture of what it meant to be a UXer.
             </p>
 
         </section>

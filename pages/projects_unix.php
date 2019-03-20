@@ -12,7 +12,7 @@
         <section class="jumbotron text-center">
             <div class="container">
                 <h1 class="jumbotron-heading">Unix Tutorial Site</h1>
-                <p class="lead"><strong>Skills employed:</strong> Leadership, Teamwork, Information Architecture, Interaction Design, Web Development, Presentation</p>
+                <p class="lead"><strong>Skills employed:</strong> Information Architecture, Persona Making, Web Design/Development, Leadership, Project Management</p>
 
                 <p class="lead"><strong>Tools used:</strong> GitHub, HTML, CSS, JS, PHP, PhpStorm, Bootstrap, RealtimeBoard</p>
             </div>
@@ -21,10 +21,10 @@
         <section>
             <h5>Overview</h5>
             <p>
-                Our 6-person group, named Thunderfox, was tasked with creating a 50-page website and an accompanying design document. I was the group's leader, did the bulk of the information architecture, personas, and server side code. I also helped with graphic design, interaction design, and debugging.
+                Led a 6-person group in creating a 50-page website and design document.
             </p>
             <p>
-                This project, while not explicitly UX-focused, demonstrates my ability to analyze information, organize information in an understandable way, communicate, problem-solve, and see a project through from ideation to development.
+                This project isn't explicitly UX-focused, but it demonstrates my ability to analyze/organize information, problem-solve, and see a project through from ideation to development.
             </p>
 
             <div id="siteExamples" class="carousel slide" data-ride="carousel" data-interval="false">
@@ -91,9 +91,9 @@
                         <img class="d-block w-75 pb-20" src="<?=URL_MEDIA?>unix/affinity_diagram.jpg" alt="Affinity Diagram">
                         <div class="carousel-caption d-none d-md-block">
                         <p>
-                            I made an affinity chart out of the ideas and categorized them into content or site features. </p>
+                            Affinity chart of the ideas, categorized into "content" and "site features."</p>
                         <p>
-                            The content portion formed the basis for the rest of our information architecture, and the site features portion formed our initial site requirements.
+                            "Content" formed our information architecture, "site features" formed our initial site requirements.
                         </p>
                     </div>
                     </div>
