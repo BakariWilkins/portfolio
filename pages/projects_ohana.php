@@ -46,7 +46,7 @@
                 The name ‘Ohana’ was chosen because it means family in Hawaiian, invoking a sense of global community and shared responsibility for the earth.
             </p>
             <p>
-                We first brainstormed features, layout, information architecture, and navigation. Through discussion, we then narrowed our focus, reworked features, and came out with a unified vision of what we wanted Ohana to be.
+                We first brainstormed features, layout, information architecture, and navigation. Through discussion we then narrowed our focus, reworked features, and came out with a unified vision of what we wanted Ohana to be.
             </p>
 
             <figure class="figure  w-75">

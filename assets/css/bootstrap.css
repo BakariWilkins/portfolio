@@ -573,6 +573,12 @@ pre code {
     margin-left: auto;
 }
 
+@media (max-width: 575px){
+    .container{
+        max-width: 90vw;
+    }
+}
+
 @media (min-width: 576px) {
     .container {
         max-width: 540px;
@@ -587,13 +593,13 @@ pre code {
 
 @media (min-width: 992px) {
     .container {
-        max-width: 960px;
+        max-width: 60vw;
     }
 }
 
 @media (min-width: 1200px) {
     .container {
-        max-width: 1140px;
+        max-width: 65vw;
     }
 }
 

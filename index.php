@@ -9,16 +9,17 @@
 <main role="main">
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron" id="hero">
-        <div class="container text-center pb-3">
-            <h1 class="display-3 ">Hello! I'm Bakari.</h1>
-            <p>I love discovering, understanding, and fulfilling user needs.</p>
-            <p>I'm a 3rd-year Human-Centered Computing major looking for a Summer or Fall 2019 co-op in UX Research, Product Design, or UX Design.</p>
-        </div>
-    </div>
+
 
 
     <div class="container clearfix">
+        <div class="jumbotron" id="hero">
+            <div class="container text-center pb-3">
+                <h1 class="display-3 ">Hello! I'm Bakari.</h1>
+                <p>I love discovering, understanding, and fulfilling user needs.</p>
+                <p>I'm a 3rd-year Human-Centered Computing major looking for a Summer or Fall 2019 co-op in UX Research, Product Design, or UX Design.</p>
+            </div>
+        </div>
         <h2 class="pt-1 pb-1">My Projects:</h2>
         <div class="row">
 
