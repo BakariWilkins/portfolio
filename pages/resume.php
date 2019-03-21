@@ -11,9 +11,9 @@
             </div>
         </section>
         <hr>
-        <a href="<?=$rel_path_home?>assets/media/bakari_wilkins_resume.pdf" class="btn btn-primary btn-lg resume-download mx-auto" download>Download Resume</a>
+        <a href="<?=$rel_path_home?>assets/media/bakari_wilkins_resume_web.pdf" class="btn btn-primary btn-lg resume-download mx-auto" download>Download Resume</a>
         <div class='embed-responsive' style='padding-bottom: 125%'>
-            <embed src="<?=$rel_path_home?>assets/media/bakari_wilkins_resume.pdf" id="resume" type="application/pdf" width="auto" height="auto"/>
+            <embed src="<?=$rel_path_home?>assets/media/bakari_wilkins_resume_web.pdf" id="resume" type="application/pdf" width="auto" height="auto"/>
         </div>
 
     </main>

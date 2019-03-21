@@ -66,7 +66,7 @@ body {
     line-height: 1.5;
     color: #212529;
     text-align: left;
-    background-color: #e8e8e8;
+    background-color: #fbfbfb;
 }
 
 [tabindex="-1"]:focus {
@@ -573,6 +573,12 @@ pre code {
     margin-left: auto;
 }
 
+@media (max-width: 575px){
+    .container{
+        max-width: 90vw;
+    }
+}
+
 @media (min-width: 576px) {
     .container {
         max-width: 540px;
@@ -587,13 +593,13 @@ pre code {
 
 @media (min-width: 992px) {
     .container {
-        max-width: 960px;
+        max-width: 60vw;
     }
 }
 
 @media (min-width: 1200px) {
     .container {
-        max-width: 1140px;
+        max-width: 65vw;
     }
 }
 
@@ -5026,7 +5032,6 @@ tbody.collapse.show {
 .jumbotron {
     padding: 2rem 1rem;
     margin-bottom: 2rem;
-    background-color: #e9ecef;
     border-radius: 0.3rem;
 }
 
